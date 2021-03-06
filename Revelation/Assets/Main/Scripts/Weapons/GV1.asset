@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c4c23e1365490d459b5521729385c79, type: 3}
+  m_Name: GV1
+  m_EditorClassIdentifier: 
+  rHandPos: {x: 0.275, y: -0.089, z: 0.383}
+  rHandRot: {x: -8.045, y: -29.686, z: -77.122}
+  BackPos: {x: -0.321, y: 0.254, z: -0.195}
+  BackRot: {x: 138.324, y: 87.769, z: -12.129}
+  RightHandAnim: {fileID: 9100000, guid: 388785b4db168d04fb48dc78ea426000, type: 2}

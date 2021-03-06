@@ -1,0 +1,34 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\1\Scripts\AI\EnemyStat.cs">
+    <Files>
+      <File FileName="Assets\1\Scripts\Camera\CameraHander.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\Character\CharaterIK.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\Weapons\Weapon.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\Camera\CameraShake.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\GameManagement\GameStart.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\OtherGameObjects\Chest.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\AI\AI2.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\Monster\BossEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\Monster\MonsterSpanwer.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\AI\BossSpawn.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\Weapons\Bullet.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\AI\EnemyStat.cs" Line="140" Column="1" />
+      <File FileName="Assets\1\Scripts\OtherGameObjects\Camerashake.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\TownBoss\TownBoss.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\TownBoss\LightingBallAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\GenericIK\IKSolver.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\OtherGameObjects\ChipsTask.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\ShooterAi\CamShooter.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\Character\CharaterInventory.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Scripts\Character\MoveControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\1\Prefabs\Effects\SineVFX\Volumetric3DLasers\Scripts\SFXControllerV3D.cs" Line="38" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="E:\Unity\FUCK YOUR BACKUP\FUCK YOU 2\Assets\2020.4.16\boss\Boss_Doctor.cs" line="236" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

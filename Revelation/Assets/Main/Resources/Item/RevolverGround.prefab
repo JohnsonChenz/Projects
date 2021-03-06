@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1634570755255502}
+  m_IsPrefabAsset: 1
+--- !u!1 &1634570755255502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4723293864360670}
+  - component: {fileID: 65288577871194998}
+  - component: {fileID: 54415253140582928}
+  - component: {fileID: 114736158322912274}
+  - component: {fileID: 114194810957205764}
+  m_Layer: 8
+  m_Name: RevolverGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1783903604334780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4921859878450292}
+  - component: {fileID: 33949388317834284}
+  - component: {fileID: 23208355069600792}
+  m_Layer: 0
+  m_Name: t1t1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4723293864360670
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1634570755255502}
+  m_LocalRotation: {x: -0, y: -0, z: 0.69934684, w: 0.71478254}
+  m_LocalPosition: {x: -0.847, y: 1.432, z: -4.59494}
+  m_LocalScale: {x: 0.0019800044, y: 0.0019800041, z: 0.0019800009}
+  m_Children:
+  - {fileID: 4921859878450292}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 88.749}
+--- !u!4 &4921859878450292
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783903604334780}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 505.05002, y: 505.05002, z: 505.05048}
+  m_Children: []
+  m_Father: {fileID: 4723293864360670}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!23 &23208355069600792
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783903604334780}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 4b87bc4825fa6e0438bbafb105ff49d4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33949388317834284
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783903604334780}
+  m_Mesh: {fileID: 4300000, guid: 4ca6b912c37b0014db46480eff3ce488, type: 3}
+--- !u!54 &54415253140582928
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1634570755255502}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65288577871194998
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1634570755255502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 70.4142, y: 217.6324, z: 329.81918}
+  m_Center: {x: 6.8031645, y: -23.459152, z: 60.2115}
+--- !u!114 &114194810957205764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1634570755255502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c91000ccf2e104f966f96bd63c513f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seeThrough: 0
+  color: {r: 0.17626202, g: 1, b: 0, a: 1}
+  color2: {r: 0, g: 0, b: 0, a: 0}
+  On: 0
+  flash: 1
+  flashfreq: 0.5
+--- !u!114 &114736158322912274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1634570755255502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237d79215d7463c4fbc764a7d2529510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameItemSWeaponOnHand: 
+  typeItem: Second Weapon
+  nameItem: Revolver
+  InventoryName: "\u5DE6\u8F2A\u624B\u69CD"
+  InventoryInfo: "\u69CD\u679D"
+  count: 0
+  countMax: 0
+  CraftNumber: 3
+  CountAble: 0
+  isUpgraded: 0
+  isCraftable: 0
+  SpritePath: Icon/Revolver
+  SpriteItemBigPath: Icon/RevolverBig
+  SpriteBigPath: Icon/Weapons/Revolver
+  PrefabPath: Item/RevolverGround
+  PrefabUpgraded: Item/RevolverUpgradedGround
+  ModelName: Revolver
+  WeaponOnHand: {fileID: 0}
+  HasBar: 1
+  ammo: 10
+  damage: 15
+  rateoffire: 10
+  recoil: 80
+  accuracy: 100

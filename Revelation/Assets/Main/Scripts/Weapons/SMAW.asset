@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c4c23e1365490d459b5521729385c79, type: 3}
+  m_Name: SMAW
+  m_EditorClassIdentifier: 
+  rHandPos: {x: 0.2170041, y: -0.02096645, z: 0.2400113}
+  rHandRot: {x: -9.002001, y: 0.467, z: -88.941}
+  BackPos: {x: -0.189, y: -0.181, z: -0.223}
+  BackRot: {x: -136.798, y: -90.69, z: 7.932999}
+  RightHandAnim: {fileID: 9100000, guid: 320a16983ba6ecc4a912d9c5c5576e94, type: 2}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c4c23e1365490d459b5521729385c79, type: 3}
+  m_Name: SR1
+  m_EditorClassIdentifier: 
+  rHandPos: {x: 0.2220039, y: -0.08301193, z: 0.2769874}
+  rHandRot: {x: -3.608, y: -20.442, z: -87.817}
+  BackPos: {x: -0.06, y: -0.055, z: -0.246}
+  BackRot: {x: -139.134, y: -94.36401, z: -10.67499}
+  RightHandAnim: {fileID: 0}

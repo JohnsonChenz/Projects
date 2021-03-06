@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1800189716831948}
+  m_IsPrefabAsset: 1
+--- !u!1 &1233829721602658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4411787380345102}
+  - component: {fileID: 33579861645415174}
+  - component: {fileID: 23171329010563936}
+  m_Layer: 0
+  m_Name: t1t1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1800189716831948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4331002731948690}
+  - component: {fileID: 33706819343218294}
+  - component: {fileID: 65775855008012130}
+  - component: {fileID: 54037431417951918}
+  - component: {fileID: 114549400508351978}
+  - component: {fileID: 114752835210714060}
+  m_Layer: 8
+  m_Name: RevolverUpgradedGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4331002731948690
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800189716831948}
+  m_LocalRotation: {x: -0, y: -0, z: 0.69934684, w: 0.71478254}
+  m_LocalPosition: {x: -2.998, y: 1.681, z: -4.4049377}
+  m_LocalScale: {x: 0.0019800027, y: 0.0019800027, z: 0.00198}
+  m_Children:
+  - {fileID: 4411787380345102}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 88.749}
+--- !u!4 &4411787380345102
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233829721602658}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 505.05002, y: 505.05002, z: 505.05048}
+  m_Children: []
+  m_Father: {fileID: 4331002731948690}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!23 &23171329010563936
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233829721602658}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: ae8070ca77627ce43afead8e6dc74fbf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33579861645415174
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233829721602658}
+  m_Mesh: {fileID: 4300000, guid: 4ca6b912c37b0014db46480eff3ce488, type: 3}
+--- !u!33 &33706819343218294
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800189716831948}
+  m_Mesh: {fileID: 4300000, guid: 45b08677cbcfc414f937226fbf703901, type: 3}
+--- !u!54 &54037431417951918
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800189716831948}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65775855008012130
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800189716831948}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 70.4142, y: 217.6324, z: 329.81918}
+  m_Center: {x: 6.8031645, y: -23.459152, z: 60.2115}
+--- !u!114 &114549400508351978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800189716831948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237d79215d7463c4fbc764a7d2529510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameItemSWeaponOnHand: 
+  typeItem: Second Weapon
+  nameItem: RevolverUpgraded
+  InventoryName: "\u5DE6\u8F2A\u624B\u69CD-X2"
+  InventoryInfo: "\u69CD\u679D"
+  count: 0
+  countMax: 0
+  CraftNumber: 1
+  CountAble: 0
+  isUpgraded: 0
+  isCraftable: 0
+  SpritePath: Icon/RevolverUpgraded
+  SpriteItemBigPath: Icon/RevolverBigUpgraded
+  SpriteBigPath: Icon/Weapons/RevolverUpgraded
+  PrefabPath: Item/RevolverUpgradedGround
+  PrefabUpgraded: Item/RevolverUpgradedGround
+  ModelName: RevolverUpgraded
+  WeaponOnHand: {fileID: 0}
+  HasBar: 1
+  ammo: 10
+  damage: 15
+  rateoffire: 10
+  recoil: 80
+  accuracy: 100
+--- !u!114 &114752835210714060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800189716831948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c91000ccf2e104f966f96bd63c513f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seeThrough: 0
+  color: {r: 0.17626202, g: 1, b: 0, a: 1}
+  color2: {r: 0, g: 0, b: 0, a: 0}
+  On: 0
+  flash: 1
+  flashfreq: 0.5

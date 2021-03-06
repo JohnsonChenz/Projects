@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 1417d11ac57da6e4aba9dcd11f0d005a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: crystaldownlowUV1:crystal01_low_low
+    100004: low_crystaldownlowUV1:crystal02_low
+    100006: low_crystaldownlowUV1:crystal03_low
+    100008: low_crystaldownlowUV1:crystal04_low
+    100010: low_crystaldownlowUV1:crystal05_low
+    100012: low_crystaldownlowUV1:crystal06_low
+    100014: low_crystaldownlowUV1:crystal07_low
+    100016: low_crystaldownlowUV1:crystal08_low
+    100018: low_crystaldownlowUV1:crystal09_low
+    100020: low_crystaldownlowUV1:crystal10_low
+    400000: //RootNode
+    400002: crystaldownlowUV1:crystal01_low_low
+    400004: low_crystaldownlowUV1:crystal02_low
+    400006: low_crystaldownlowUV1:crystal03_low
+    400008: low_crystaldownlowUV1:crystal04_low
+    400010: low_crystaldownlowUV1:crystal05_low
+    400012: low_crystaldownlowUV1:crystal06_low
+    400014: low_crystaldownlowUV1:crystal07_low
+    400016: low_crystaldownlowUV1:crystal08_low
+    400018: low_crystaldownlowUV1:crystal09_low
+    400020: low_crystaldownlowUV1:crystal10_low
+    2100000: crystaldownlowUV1_crystal01_low_lowMat
+    2100002: low_crystaldownlowUV1_crystal02_lowMat
+    2100004: low_crystaldownlowUV1_crystal03_lowMat
+    2100006: low_crystaldownlowUV1_crystal04_lowMat
+    2100008: low_crystaldownlowUV1_crystal05_lowMat
+    2100010: low_crystaldownlowUV1_crystal06_lowMat
+    2100012: low_crystaldownlowUV1_crystal07_lowMat
+    2100014: low_crystaldownlowUV1_crystal08_lowMat
+    2100016: low_crystaldownlowUV1_crystal09_lowMat
+    2100018: low_crystaldownlowUV1_crystal10_lowMat
+    2300000: crystaldownlowUV1:crystal01_low_low
+    2300002: low_crystaldownlowUV1:crystal02_low
+    2300004: low_crystaldownlowUV1:crystal03_low
+    2300006: low_crystaldownlowUV1:crystal04_low
+    2300008: low_crystaldownlowUV1:crystal05_low
+    2300010: low_crystaldownlowUV1:crystal06_low
+    2300012: low_crystaldownlowUV1:crystal07_low
+    2300014: low_crystaldownlowUV1:crystal08_low
+    2300016: low_crystaldownlowUV1:crystal09_low
+    2300018: low_crystaldownlowUV1:crystal10_low
+    3300000: crystaldownlowUV1:crystal01_low_low
+    3300002: low_crystaldownlowUV1:crystal02_low
+    3300004: low_crystaldownlowUV1:crystal03_low
+    3300006: low_crystaldownlowUV1:crystal04_low
+    3300008: low_crystaldownlowUV1:crystal05_low
+    3300010: low_crystaldownlowUV1:crystal06_low
+    3300012: low_crystaldownlowUV1:crystal07_low
+    3300014: low_crystaldownlowUV1:crystal08_low
+    3300016: low_crystaldownlowUV1:crystal09_low
+    3300018: low_crystaldownlowUV1:crystal10_low
+    4300000: crystaldownlowUV1:crystal01_low_low
+    4300002: low_crystaldownlowUV1:crystal02_low
+    4300004: low_crystaldownlowUV1:crystal03_low
+    4300006: low_crystaldownlowUV1:crystal04_low
+    4300008: low_crystaldownlowUV1:crystal05_low
+    4300010: low_crystaldownlowUV1:crystal06_low
+    4300012: low_crystaldownlowUV1:crystal07_low
+    4300014: low_crystaldownlowUV1:crystal08_low
+    4300016: low_crystaldownlowUV1:crystal09_low
+    4300018: low_crystaldownlowUV1:crystal10_low
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
